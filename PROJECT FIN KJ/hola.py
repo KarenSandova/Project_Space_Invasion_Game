@@ -1,20 +1,30 @@
+
+
+
+
+
+
 import pygame
 import random
 
 pygame.init()
 pygame.mixer.init()
 
-fondo = pygame.image.load('iamgenes/fondo.png')
-laser_sonido = pygame.mixer.Sound ('laser.wav')
-explosion_sonido = pygame.mixer.Sound('explosion.wav')
-golpe_sonido = pygame.mixer.Sound('golpe.wav')
+fondo = pygame.image.load()
+laser_sonido = pygame.mixer.Sound ()
+explosion_sonido = pygame.mixer.Sound()
+golpe_sonido = pygame.mixer.Sound()
 
 explosion_list = []
 for i in range (1,13):
-    explosion = pygame.image.load(//EXPLISION )     
+    explosion = pygame.image.load()     
     explosion_list.append(explosion)
     
-width = 
+width = fondo.get_with()
 height=
 window = 
-pygame.display.set_caption()
+pygame.display.set_caption('Play Space Invaders')
+run =
+fps = 60
+clock =
+score= 
